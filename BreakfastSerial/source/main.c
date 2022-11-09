@@ -3,7 +3,14 @@
  * 
  * Author Howdy Pierce, howdy.pierce@colorado.edu
  */
+
+#include <stdbool.h>
+#include <stdint.h>
+#include <stdlib.h>
+
+#include "cbfifo.h"
 #include "sysclock.h"
+#include "test_cbfifo.h"
 
 
 int main(void)
